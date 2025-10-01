@@ -1,1 +1,76 @@
-This repository contains working Python code and descriptions of ML agorithms.
+The course will cover the following topics with working code to show the concepts.  The tutorial will also reference "Introduction to Machine Learning with Python" Andreas C. Muller and Sarah Guido O'Reilly (2017)
+Will add material and code as each section is completed.
+
+1. Mathematical Foundations
+	Linear Algebra: Vectors, matrices, eigenvalues/eigenvectors, matrix decomposition (SVD, PCA)
+	Calculus: Derivatives, gradients, chain rule, partial derivatives, optimization
+	Probability & Statistics: Probability distributions, Bayes' theorem, expectation, variance, hypothesis testing
+	Optimization: Gradient descent, stochastic gradient descent, convex optimization
+2. Programming & Tools
+	Python fundamentals: NumPy, Pandas, data manipulation
+	Visualization: Matplotlib, Seaborn, Plotly
+	ML Libraries: Scikit-learn, TensorFlow, PyTorch
+	Development: Jupyter notebooks, Git, virtual environments
+3. Core ML Concepts
+	Supervised vs. Unsupervised vs. Reinforcement Learning
+	Training, validation, and test sets
+	Overfitting and underfitting
+	Bias-variance tradeoff
+	Cross-validation techniques
+	Feature engineering and selection
+	Data preprocessing: normalization, standardization, handling missing data
+4. Supervised Learning - Regression
+	Linear regression
+	Polynomial regression
+	Ridge and Lasso regression (regularization)
+	Evaluation metrics: MSE, RMSE, MAE, R²
+5. Supervised Learning - Classification
+	Logistic regression
+	Decision trees
+	Random forests
+	Support Vector Machines (SVM)
+	Naive Bayes
+	K-Nearest Neighbors (KNN)
+	Evaluation metrics: accuracy, precision, recall, F1-score, ROC-AUC, confusion matrix
+6. Unsupervised Learning
+	Clustering: K-means, hierarchical clustering, DBSCAN
+	Dimensionality reduction: PCA, t-SNE, UMAP
+	Anomaly detection
+	Association rules: Apriori, FP-growth
+7. Ensemble Methods
+	Bagging and boosting concepts
+	Random forests (deeper dive)
+	Gradient boosting (XGBoost, LightGBM, CatBoost)
+	Stacking and blending
+8. Neural Networks & Deep Learning
+	Fundamentals: Perceptrons, activation functions, backpropagation
+	Architectures: Feedforward networks, CNNs, RNNs, LSTMs, Transformers
+	Computer Vision: Image classification, object detection, segmentation
+	Natural Language Processing: Word embeddings, attention mechanisms, BERT, GPT
+	Training techniques: Dropout, batch normalization, learning rate scheduling
+	Transfer learning and fine-tuning
+9. Model Evaluation & Selection
+	Performance metrics for different tasks
+	Cross-validation strategies
+	Hyperparameter tuning: Grid search, random search, Bayesian optimization
+	Learning curves
+	Model interpretability: SHAP, LIME
+10. Advanced Topics
+	Time Series: ARIMA, Prophet, LSTMs for sequences
+	Recommender Systems: Collaborative filtering, content-based filtering
+	Reinforcement Learning: Q-learning, policy gradients, DQN
+	AutoML: Automated feature engineering and model selection
+	Generative Models: GANs, VAEs, diffusion models
+11. MLOps & Production
+	Model deployment (Flask, FastAPI, cloud services)
+	Model monitoring and maintenance
+	A/B testing
+	CI/CD for ML
+	Model versioning (MLflow, DVC)
+	Containerization (Docker, Kubernetes)
+12. Ethics & Best Practices
+	Fairness and bias in ML
+	Privacy considerations
+	Explainable AI (XAI)
+	Responsible AI practices
+	Data security and compliance
